@@ -1,0 +1,125 @@
+body {
+    position: relative;
+    background-image: url('bgimg2.jpg');
+    background-size: cover;
+    background-position: bottom;
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    min-height: 100vh;
+    padding: auto;
+}
+
+h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+    font-style: italic;
+    color: #112031;
+}
+
+#Title {
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+    font-style: italic;
+    color: #112031;
+}
+
+#Title:hover {
+    color: #030c71;
+    transition: 0.97ms;
+}
+
+#city-form {
+    text-align: center;
+}
+
+#text-box {
+    border: none;
+    width: 350px;
+    border-radius: 20px;
+    border: 2px solid rgb(1, 1, 86);
+    font-size: 30px;
+    opacity: .6;
+}
+
+#text-box:focus {
+    background-color: #71acff(131, 195, 251);
+    opacity: .6;
+}
+
+#submit-button {
+    background-color: #71acff;
+    border: none;
+    color: white;
+    padding: 18px 36px;
+    text-decoration: none;
+    margin: 5px 4px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#submit-button:hover {
+    color: rgba(0, 0, 0, 0.667);
+    transition: 0.97ms;
+}
+
+label {
+    display: inline-block;
+    font-size: larger;
+}
+
+.trademark {
+    margin-left: auto;
+    margin-top: 130px;
+    font-size: 13px;
+    color: white;
+}
+
+socialcenter {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.LinkedIn {
+    height: 30px;
+    width: 30px;
+}
+
+.instagram {
+    height: 30px;
+    width: 30px;
+}
+
+.twitter {
+
+    height: 30px;
+    width: 30px;
+}
+
+ul {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    /* display: flex; */
+    display: inline-block;
+}
+
+ul li {
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 10px;
+    margin: 0 30px;
+    background: #ffffff;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: 1s;
+    display: inline-block;
+}

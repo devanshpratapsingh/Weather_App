@@ -1,0 +1,74 @@
+body {
+    position: relative;
+    background-image: url('bgimg3.jpg');
+    background-size: cover;
+    background-position: bottom;
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    min-height: 100vh;
+    padding: auto;
+}
+
+h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+    font-style: italic;
+    color: #112031;
+}
+
+#Title {
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+    font-style: italic;
+    color: #112031;
+}
+
+#Title:hover {
+    color: #320279;
+    transition: 0.97ms;
+}
+
+#city-form {
+    text-align: center;
+}
+
+#text-box {
+    border: none;
+    width: 350px;
+    border-radius: 20px;
+    border: 2px solid rgb(1, 1, 86);
+    font-size: 30px;
+    opacity: .6;
+}
+
+#text-box:focus {
+    background-color: #71acff(131, 195, 251);
+    opacity: .6;
+}
+
+#submit-button {
+    background-color: #71acff;
+    border: none;
+    color: white;
+    padding: 18px 36px;
+    text-decoration: none;
+    margin: 5px 4px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#submit-button:hover {
+    color: rgba(0, 0, 0, 0.667);
+    transition: 0.97ms;
+}
+
+label {
+    display: inline-block;
+    font-size: larger;
+}
