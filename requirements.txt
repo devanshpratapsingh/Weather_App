@@ -70,7 +70,7 @@ PyMsgBox==1.0.9
 pynput==1.7.3
 pyparsing==2.4.7
 pyperclip==1.8.1
-pypiwin32==223
+
 PyPrind==2.11.3
 PyRect==0.1.4
 PyScreeze==0.1.26
